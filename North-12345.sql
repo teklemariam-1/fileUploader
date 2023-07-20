@@ -1,0 +1,5 @@
+SELECT * FROM student WHERE id IN (345, 436, 675, 565, 432);
+
+UPDATE student SET status = 'PASS' WHERE id IN (345, 436, 675, 565, 432);
+
+SELECT * FROM student WHERE id IN (345, 436, 675, 565, 432);
